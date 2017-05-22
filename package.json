@@ -1,29 +1,88 @@
 {
-  "name": "react-touch-screen-keyboard",
-  "version": "0.1.8",
-  "description": "React touch screen keyboard",
-  "main": "KeyboardedInput.js",
-  "scripts": {
-    "dist": "webpack -p",
-    "build": "babel ./src -d ./lib --source-maps"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/xTrinch/react-touch-screen-keyboard"
-  },
-  "keywords": [
-    "react",
-    "react-component",
-    "component",
-    "touchscreen",
-    "keyboard"
+  "_args": [
+    [
+      {
+        "raw": "git+https://github.com/dcwangmit01/react-touch-screen-keyboard.git#add_passthrough_props_dist",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "git+https://github.com/dcwangmit01/react-touch-screen-keyboard.git#add_passthrough_props_dist",
+        "spec": "git+https://github.com/dcwangmit01/react-touch-screen-keyboard.git#add_passthrough_props_dist",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:dcwangmit01/react-touch-screen-keyboard.git#add_passthrough_props_dist",
+          "sshUrl": "git+ssh://git@github.com/dcwangmit01/react-touch-screen-keyboard.git#add_passthrough_props_dist",
+          "httpsUrl": "git+https://github.com/dcwangmit01/react-touch-screen-keyboard.git#add_passthrough_props_dist",
+          "gitUrl": "git://github.com/dcwangmit01/react-touch-screen-keyboard.git#add_passthrough_props_dist",
+          "shortcut": "github:dcwangmit01/react-touch-screen-keyboard#add_passthrough_props_dist",
+          "directUrl": "https://raw.githubusercontent.com/dcwangmit01/react-touch-screen-keyboard/add_passthrough_props_dist/package.json"
+        }
+      },
+      "/home/vagrant/Pax/pax-ui"
+    ]
   ],
-  "author": "xTrinch <mojca.rojko@gmail.com> (https://github.com/xTrinch)",
-  "license": "MIT",
+  "_from": "git+https://github.com/dcwangmit01/react-touch-screen-keyboard.git#add_passthrough_props_dist",
+  "_id": "react-touch-screen-keyboard@0.1.8",
+  "_inCache": true,
+  "_location": "/react-touch-screen-keyboard",
+  "_phantomChildren": {
+    "cssesc": "0.1.0",
+    "cssnano": "3.10.0",
+    "fastparse": "1.1.1",
+    "loader-utils": "0.2.17",
+    "lodash._createcompounder": "3.0.0",
+    "object-assign": "4.1.1",
+    "postcss": "5.2.17",
+    "postcss-modules-extract-imports": "1.0.1",
+    "postcss-modules-local-by-default": "1.1.1",
+    "postcss-modules-scope": "1.0.2",
+    "postcss-modules-values": "1.2.2",
+    "source-list-map": "0.1.8"
+  },
+  "_requested": {
+    "raw": "git+https://github.com/dcwangmit01/react-touch-screen-keyboard.git#add_passthrough_props_dist",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "git+https://github.com/dcwangmit01/react-touch-screen-keyboard.git#add_passthrough_props_dist",
+    "spec": "git+https://github.com/dcwangmit01/react-touch-screen-keyboard.git#add_passthrough_props_dist",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:dcwangmit01/react-touch-screen-keyboard.git#add_passthrough_props_dist",
+      "sshUrl": "git+ssh://git@github.com/dcwangmit01/react-touch-screen-keyboard.git#add_passthrough_props_dist",
+      "httpsUrl": "git+https://github.com/dcwangmit01/react-touch-screen-keyboard.git#add_passthrough_props_dist",
+      "gitUrl": "git://github.com/dcwangmit01/react-touch-screen-keyboard.git#add_passthrough_props_dist",
+      "shortcut": "github:dcwangmit01/react-touch-screen-keyboard#add_passthrough_props_dist",
+      "directUrl": "https://raw.githubusercontent.com/dcwangmit01/react-touch-screen-keyboard/add_passthrough_props_dist/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/dcwangmit01/react-touch-screen-keyboard.git#4c5f02e29e1c2a273354478acff86bd3cb000f30",
+  "_shasum": "6eed4baa69d3c6ec80e19d724523d75bf65e583b",
+  "_shrinkwrap": null,
+  "_spec": "git+https://github.com/dcwangmit01/react-touch-screen-keyboard.git#add_passthrough_props_dist",
+  "_where": "/home/vagrant/Pax/pax-ui",
+  "author": {
+    "name": "xTrinch",
+    "email": "mojca.rojko@gmail.com",
+    "url": "https://github.com/xTrinch"
+  },
   "bugs": {
     "url": "https://github.com/xTrinch/react-touch-screen-keyboard/issues"
   },
-  "homepage": "https://github.com/xTrinch/react-touch-screen-keyboard",
+  "dependencies": {
+    "css-loader": "~0.23.1",
+    "css-modules-require-hook": "~4.0.1",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "style-loader": "~0.13.1"
+  },
+  "description": "React touch screen keyboard",
   "devDependencies": {
     "autoprefixer": "6.3.7",
     "babel-cli": "^6.11.4",
@@ -54,11 +113,28 @@
     "sinon-chai": "2.8.0",
     "webpack": "^1.13.1"
   },
-  "dependencies": {
-    "react": "^15.3.0",
-    "react-dom": "^15.3.0",
-    "css-modules-require-hook": "~4.0.1",
-    "style-loader": "~0.13.1",
-    "css-loader": "~0.23.1"
-  }
+  "gitHead": "4c5f02e29e1c2a273354478acff86bd3cb000f30",
+  "homepage": "https://github.com/xTrinch/react-touch-screen-keyboard",
+  "keywords": [
+    "react",
+    "react-component",
+    "component",
+    "touchscreen",
+    "keyboard"
+  ],
+  "license": "MIT",
+  "main": "KeyboardedInput.js",
+  "name": "react-touch-screen-keyboard",
+  "optionalDependencies": {},
+  "readme": "[![npm version](https://badge.fury.io/js/react-touch-screen-keyboard.svg)](https://badge.fury.io/js/react-touch-screen-keyboard)\n\n# react-touch-screen-keyboard\n\n![alt tag](https://raw.githubusercontent.com/xTrinch/react-touch-screen-keyboard/master/keyboard.png)\n\n## Quick start\n\nThis library will render a virtual keyboard on the bottom of the screen when the input is selected. The usage is very simple - instead of using the input tag, use the KeyboardedInput tag from the library. You can control the input's value via the callback function you give to its props.\n\nCurrently supported keyboards: us, de, ru\n\n**Installing via npm**\n\n```\nnpm install react-touch-screen-keyboard\n```\n\n### Example\n\n```js\n\nimport React from 'react';\nimport KeyboardedInput from 'react-touch-screen-keyboard';\nimport 'react-touch-screen-keyboard/src/Keyboard.css';\n\nclass Input extends React.Component {\n  render() {\n    return (\n      <KeyboardedInput\n        enabled\n        type={this.props.type}\n        onChange={this.props.onChange}\n        value={this.props.value}\n        min={this.props.min}\n        max={this.props.max}\n        step={this.props.step}\n        defaultKeyboard=\"de\"\n        secondaryKeyboard=\"us\" // optional\n      />\n    );\n  }\n}\nexport default Input;\n\n```\n\n\nThis library was built around https://github.com/WiaczeslawP/react-screen-keyboard 's codebase. Credit where credit's due :)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xTrinch/react-touch-screen-keyboard.git"
+  },
+  "scripts": {
+    "build": "babel ./src -d ./lib --source-maps",
+    "dist": "webpack -p"
+  },
+  "version": "0.1.8"
 }
